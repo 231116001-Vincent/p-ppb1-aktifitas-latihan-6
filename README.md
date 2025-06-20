@@ -1,2 +1,2 @@
-# p-ppb1-aktifitas-latihan-6
-Assignment - Modul 6 - Menu
+# Praktikum PPB 1 - Aktifitas & Latihan 6
+Modul 6 - Menu
