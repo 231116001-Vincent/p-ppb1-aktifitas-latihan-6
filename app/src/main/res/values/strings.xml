@@ -18,6 +18,16 @@
     <string name="fragment_slideshow">Ini halaman Slideshow</string>
     <string name="fragment_tools">Ini halaman Tools</string>
 
+    <string name="nav_absence">Absensi</string>
+    <string name="nav_grade">Nilai</string>
+    <string name="nav_bills">Keuangan</string>
+    <string name="nav_settings">Pengaturan</string>
+
+    <string name="fragment_absence">Ini halaman Absensi</string>
+    <string name="fragment_grade">Ini halaman Nilai</string>
+    <string name="fragment_bill">Ini halaman Keuangan</string>
+    <string name="fragment_settings">Ini halaman Pengaturan</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

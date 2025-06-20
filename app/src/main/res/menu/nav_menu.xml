@@ -4,33 +4,24 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_camera"
+            android:icon="@drawable/ic_house"
             android:title="@string/nav_home"/>
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_images"
-            android:title="@string/nav_gallery"/>
+            android:id="@+id/nav_absence"
+            android:icon="@drawable/ic_check"
+            android:title="@string/nav_absence"/>
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_projector"
-            android:title="@string/nav_slideshow"/>
+            android:id="@+id/nav_grade"
+            android:icon="@drawable/ic_clipboard"
+            android:title="@string/nav_grade"/>
         <item
-            android:id="@+id/nav_tools"
-            android:icon="@drawable/ic_hammer"
-            android:title="@string/nav_tools"/>
+            android:id="@+id/nav_bills"
+            android:icon="@drawable/ic_receipt"
+            android:title="@string/nav_bills"/>
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/nav_settings"/>
     </group>
-
-    <item android:title="@string/nav_header_communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_share"
-                android:title="@string/nav_share"/>
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_send"
-                android:title="@string/nav_send"/>
-        </menu>
-    </item>
 
 </menu>

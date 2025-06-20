@@ -14,8 +14,12 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.setPadding
 import androidx.drawerlayout.widget.DrawerLayout
 import com.google.android.material.navigation.NavigationView
+import com.vharya.drawernavassignment.fragments.AbsenceFragment
+import com.vharya.drawernavassignment.fragments.BillsFragment
 import com.vharya.drawernavassignment.fragments.GalleryFragment
+import com.vharya.drawernavassignment.fragments.GradeFragment
 import com.vharya.drawernavassignment.fragments.HomeFragment
+import com.vharya.drawernavassignment.fragments.SettingsFragment
 import com.vharya.drawernavassignment.fragments.ToolsFragment
 import com.vharya.drawernavassignment.fragments.SlideshowFragment
 
@@ -78,14 +82,17 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.nav_home -> supportFragmentManager.beginTransaction()
                 .replace(R.id.fragment_container, HomeFragment()).commit()
 
-            R.id.nav_gallery -> supportFragmentManager.beginTransaction()
-                .replace(R.id.fragment_container, GalleryFragment()).commit()
+            R.id.nav_absence -> supportFragmentManager.beginTransaction()
+                .replace(R.id.fragment_container, AbsenceFragment()).commit()
 
-            R.id.nav_slideshow -> supportFragmentManager.beginTransaction()
-                .replace(R.id.fragment_container, SlideshowFragment()).commit()
+            R.id.nav_grade -> supportFragmentManager.beginTransaction()
+                .replace(R.id.fragment_container, GradeFragment()).commit()
 
-            R.id.nav_tools -> supportFragmentManager.beginTransaction()
-                .replace(R.id.fragment_container, ToolsFragment()).commit()
+            R.id.nav_bills -> supportFragmentManager.beginTransaction()
+                .replace(R.id.fragment_container, BillsFragment()).commit()
+
+            R.id.nav_settings -> supportFragmentManager.beginTransaction()
+                .replace(R.id.fragment_container, SettingsFragment()).commit()
         }
 
         drawerLayout.closeDrawer(GravityCompat.START)
